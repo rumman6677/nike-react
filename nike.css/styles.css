@@ -1,0 +1,362 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: #FFF9F4;
+
+    
+}
+
+
+.logo-container {
+    flex: 1;
+}
+
+.penguine {
+width: 291.11px;
+height: 39.27px;
+top: 39px;
+left: 135px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+
+.nav-container {
+    width: 414px;
+height: 24px;
+top: 47px;
+left: 889px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav menu li {
+    margin-left: 10px; 
+}
+span{
+    color:#FA804C;
+    ;
+}
+
+.navmenu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.navmenu {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .navmenu li {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+
+.content-section {
+    position: relative;
+    width: 100%;
+    height: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.image-container {
+    position: relative;
+}
+
+.shoe-image {
+    position: relative;
+    z-index: 2;
+    background-image: 
+        url(/images/Ellipse\ 1.png), 
+        url(/images/Ellipse\ 2.png), 
+        url(/images/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-position: 
+        center,
+        top right,
+        bottom left;
+    
+}
+
+
+.circle-image {
+    width: 500px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    z-index: 1;
+}
+
+.half-circle {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    z-index: 3;
+}
+
+.dots {
+    width: 150px;
+    position: absolute;
+    top: 300px;
+    left: -50px;
+    z-index: 1;
+}
+
+
+.image-container .ellipse1 {
+    position: absolute;
+    width: 407px;
+    height: 407px;
+    top: 179px;
+    left: 217px;
+    background-image: url(/images/Ellipse\ 1.png);
+    opacity: 1; 
+    z-index: 1; 
+}
+
+
+.image-container .ellipse2 {
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    top: 236.18px;
+    left: 601.18px;
+    background-image: url(/images/Ellipse\ 2.png);
+    opacity: 1; 
+    transform: rotate(-150deg);
+    z-index: 2;
+}
+
+
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.text-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+h4{
+color: #363958;
+    
+}
+
+p{
+    color:#3E3E3E;
+    
+}
+
+.shoe-section {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    padding: 20px;
+    flex-wrap: wrap; 
+}
+.content-section{
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    
+}
+.content {
+    max-width: 50%;
+}
+
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+
+.card {
+    background-color: #f8f8f8; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 450px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+.image-card {
+    width: 100%; 
+    background-color: #eaeaea; 
+    border-radius: 5px;
+    overflow: hidden; 
+    margin-bottom: 20px; 
+}
+
+.image-card img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.price-button {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) 
+{ .shoe-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+
+.main-section {
+    display: flex; 
+    padding: 20px;
+    gap: 20px; 
+}
+
+
+.info-section {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+/* Individual Info Item */
+.info-item {
+    display: flex; 
+    background-color: #f8f8f8; 
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.item-content {
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+}
+
+
+.item-content img {
+    width: 50px; 
+    height: auto; 
+}
+
+
+.image-section {
+    flex: 1; /* Takes up available space */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center vertically */
+}
+
+
+.image-section img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
